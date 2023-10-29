@@ -1,0 +1,14 @@
+.theend {
+  background-color: black;
+}
+.theend nav {
+  font-family: Encode Sans, sans-serif;
+  color: white;
+  text-align: center;
+  align-items: center;
+  gap: 33.33%;
+  display: flex;
+  margin-left: 100px;
+  font-size: 20px;
+  margin-right: 100px;
+}

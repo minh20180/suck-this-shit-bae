@@ -1,0 +1,48 @@
+header {
+  background-color: white;
+  font-family: Encode Sans, sans-serif;
+  font-weight: 400;
+}
+
+header img {
+  max-width: 100px;
+}
+header .container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  margin: auto;
+  gap: 20px;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+header nav a {
+  font-size: 20px;
+  text-decoration: none;
+}
+header i {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 50%;
+}
+header i:hover {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  color: black;
+  background-color: white;
+}
+header a {
+  color: black;
+}
+header a:hover {
+  color: red;
+}

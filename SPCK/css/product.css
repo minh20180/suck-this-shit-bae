@@ -1,0 +1,88 @@
+.product1 img {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.product2 img {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.product {
+  gap: 32px;
+  padding: 20px;
+}
+.product nav {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.product .product1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.product .product1 .productitem {
+  width: calc(25% - 16px);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  margin-bottom: 20px;
+}
+.product .product1 .productitem img {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.product .product2 {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.product .product2 .productitem {
+  width: calc(25% - 16px);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.product .product2 .productitem img {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.product .product1 nav {
+  font-size: 25px;
+  font-family: Encode Sans, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+.product .product2 nav {
+  font-size: 25px;
+  font-family: Encode Sans, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+.product .product2 .productitem:hover {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.product .product1 .productitem:hover {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.product .product1 .productitem h3 {
+  display: flex;
+  font-family: Encode Sans, sans-serif;
+  text-align: center;
+  color: black;
+  justify-content: center;
+  font-size: 25px;
+}
+.product .product2 .productitem h3 {
+  display: flex;
+  font-family: Encode Sans, sans-serif;
+  text-align: center;
+  color: black;
+  justify-content: center;
+  font-size: 25px;
+}

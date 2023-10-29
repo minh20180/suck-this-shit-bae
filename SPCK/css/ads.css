@@ -1,0 +1,14 @@
+.ads .container {
+  gap: 32px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ads .container > * {
+  flex: 1 1 auto;
+}
+
+.ads img {
+  width: 40%;
+}
